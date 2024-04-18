@@ -2,7 +2,7 @@ require_relative 'lib/rspec_query_counter/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec_query_counter"
-  spec.version       = RspecQueryCounter::VERSION
+  spec.version       = RSpecQueryCounter::Version::VERSION
   spec.authors       = ["Dylan Blakemore"]
   spec.email         = ["dylan.blakemore@gmail.com"]
 

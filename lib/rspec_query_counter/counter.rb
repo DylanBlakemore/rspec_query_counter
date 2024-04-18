@@ -1,4 +1,4 @@
-module RspecQueryCounter
+module RSpecQueryCounter
   module Counter
 
     class << self

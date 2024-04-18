@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe RspecQueryCounter::Counter do
+RSpec.describe RSpecQueryCounter::Counter do
   before do
     described_class.reset_counter!
   end

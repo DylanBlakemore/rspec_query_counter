@@ -1,11 +1,11 @@
-require "rspec_query_counter/version"
-require "rspec_query_counter/counter"
+require_relative "rspec_query_counter/version"
+require_relative "rspec_query_counter/counter"
 require "active_support/notifications"
 
-module RspecQueryCounter
+module RSpecQueryCounter
   class << self
     def setup(config)
-      counter = RspecQueryCounter::Counter
+      counter = RSpecQueryCounter::Counter
 
       config.before(:suite) do
         counter.reset_counter!
