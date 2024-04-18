@@ -20,6 +20,7 @@ module RSpecQueryCounter
     
       config.after(:suite) do
         RSpecQueryCounter.print_results(counter)
+        counter.reset_counter!
       end
     end
 
