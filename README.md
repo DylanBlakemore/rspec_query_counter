@@ -38,8 +38,16 @@ end
 
 Now, when you run `rspec`, you should see something like the following:
 
-```ruby
-
+```
+Total number of database queries: 512
+Queries by type:
+TRANSACTION: 278
+Create: 81
+Load: 107
+Destroy: 4
+Update: 19
+Count: 16
+Exists?: 7
 ```
 
 ## Development
